@@ -1,14 +1,39 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# 📱 Kotlin Multiplatform Navigation
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+Welcome to the ultimate navigation guide for Kotlin Multiplatform project. 
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+Here you will learn how to implement and manage different navigation patterns to enhance the user experience in your applications.
 
+## 📑 Table of Contents
+- [📚 Tab Navigation](#-tab-navigation)
+- [💬 Simple Dialog](#-simple-dialog)
+- [🧭 Compose Navigation](#-compose-navigation)
+- [⬇️ BottomBar Navigation](#-bottombar-navigation)
+- [📉 BottomSheet](#-bottomsheet)
+- [🗂 Drawer Menu](#-drawer-menu)
+- [✨ Bonus Feature](#-bonus-feature)
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## 📚 Tab Navigation
+Learn how to set up and implement tab navigation for your Kotlin Multiplatform projects.
+
+## 💬 Simple Dialog
+Dive into creating and managing dialog boxes in Kotlin Multiplatform development.
+
+## 🧭 Compose Navigation
+Explore navigation patterns using Jetpack Compose for Kotlin Multiplatform.
+
+## ⬇️ BottomBar Navigation
+Discover how to integrate and utilize bottom navigation bars in your Kotlin Multiplatform applications.
+
+## 📉 BottomSheet
+Master the implementation of bottom sheets for enhanced user interaction in Kotlin Multiplatform development.
+
+## 🗂 Drawer Menu
+Learn to incorporate drawer menus for efficient navigation within your Kotlin Multiplatform apps.
+
+## ✨ Bonus Feature
+Unlock an exclusive bonus feature, where we dynamically control the visibility of a floating action button based on the selected tab.
+
+---
+
+If you need more help or have any other requests, feel free to let me know. 😊
